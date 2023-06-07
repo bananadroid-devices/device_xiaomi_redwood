@@ -7,6 +7,10 @@
 # Inherit from sm7325-common
 $(call inherit-product, device/xiaomi/sm7325-common/common.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
