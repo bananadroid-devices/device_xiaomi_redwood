@@ -6,6 +6,8 @@
 
 DEVICE_PATH := device/xiaomi/redwood
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Inherit from sm7325-common
 include device/xiaomi/sm7325-common/BoardConfigCommon.mk
 
