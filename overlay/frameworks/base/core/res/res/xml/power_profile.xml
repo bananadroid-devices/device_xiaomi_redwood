@@ -123,7 +123,7 @@
     <item name="cpu.active">7.7</item>
     <item name="cpu.idle">0.1</item>
     <item name="cpu.suspend">0</item>
-    <item name="battery.capacity">4500</item>
+    <item name="battery.capacity">5000</item>
     <item name="wifi.on">0.5</item>
     <item name="wifi.active">417.4</item>
     <item name="wifi.scan">53</item>
