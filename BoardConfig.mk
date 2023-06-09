@@ -8,6 +8,7 @@ DEVICE_PATH := device/xiaomi/redwood
 
 BUILD_BROKEN_DUP_RULES := true
 RELAX_USES_LIBRARY_CHECK := true
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 # Inherit from sm7325-common
 include device/xiaomi/sm7325-common/BoardConfigCommon.mk
