@@ -34,3 +34,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 113254576128
 # Include proprietary files
 include vendor/xiaomi/redwood/BoardConfigVendor.mk
 include vendor/xiaomi/redwood-firmware/config.mk
+-include vendor/xiaomi/redwood-miuicamera/products/board.mk

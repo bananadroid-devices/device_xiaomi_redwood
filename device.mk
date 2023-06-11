@@ -7,6 +7,9 @@
 # Inherit from sm7325-common
 $(call inherit-product, device/xiaomi/sm7325-common/common.mk)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/redwood-miuicamera/products/miuicamera.mk)
+
 # Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
