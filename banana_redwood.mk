@@ -12,28 +12,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/redwood/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/banana/config/common.mk)
 
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 22101320C
-PRODUCT_NAME := lineage_redwood
+PRODUCT_NAME := banana_redwood
 
-# Alphadroid Stuffs
-TARGET_HAS_UDFPS := false
+# Banana Stuffs
+BANANA_MAINTAINER := franlop77
 TARGET_ENABLE_BLUR := true
-TARGET_INCLUDE_MATLOG := false
-TARGET_USE_PIXEL_LAUNCHER := false
-TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_EXCLUDE_MATLOG := true
 TARGET_USE_GOOGLE_TELEPHONY := false
 
 # Aditional
 TARGET_ENABLE_BLUR := true
-
-#Alpha Mantainer
-ALPHA_MAINTAINER := franlop77
 
 # Gapps
 WITH_GAPPS := true
